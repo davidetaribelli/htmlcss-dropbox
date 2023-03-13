@@ -2,4 +2,24 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
 }
+
+.flex{display: flex;}
+
+.row{flex-direction: row;}
+
+
+.col-10{width: 10%;}
+.col-20{width: 20%;}
+.col-30{width: 30%;}
+.col-40{width: 40%;}
+.col-50{width: 50%;}
+.col-60{width: 60%;}
+.col-70{width: 70%;}
+.col-80{width: 80%;}
+.col-90{width: 90%;}
+.col-100{width: 100%;}
+
+
+.bgColorLightSky{background-color: #b4d0e7;}

@@ -1,0 +1,34 @@
+/* CSS PER LA PAGINA */
+header{
+    background-color: aqua; /* momentanea */
+    height: 70px; /* momentanea */
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* HEADER */
+
+.navStart, .navEnd{
+    justify-content: center;
+    align-items: center;
+}
+
+.navStart div, .navEnd div{
+    background-color: bisque; /* momentanea */
+    border: 1px solid black; /* momentanea */
+    margin: 1em;
+    padding: 1.2em;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+/* MAIN */
+
+.heading{
+    height: 500px;
+    background-color: blue;
+    margin: 0 auto;
+}
