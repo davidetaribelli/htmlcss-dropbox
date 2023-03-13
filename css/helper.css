@@ -6,8 +6,8 @@
 }
 
 .flex{display: flex;}
-
 .row{flex-direction: row;}
+.column{flex-direction: column;}
 
 
 .col-10{width: 10%;}

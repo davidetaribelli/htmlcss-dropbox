@@ -6,6 +6,14 @@ header{
     align-items: center;
 }
 
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 30px;
+}
+
 /* HEADER */
 
 .navStart, .navEnd{
@@ -25,10 +33,40 @@ header a{
     color: black;
 }
 
+.content{
+    min-height: 397px; /* momentanea */
+    background-color: brown; /* momentanea */
+    border: 1px solid black; /* momentanea */
+}
+
+.imgHeading {
+    min-height: 397px; /* momentanea */
+    background-color: brown; /* momentanea */
+    border: 1px solid black; /* momentanea */
+}
+
 /* MAIN */
 
 .heading{
-    height: 500px;
-    background-color: blue;
+    min-height: 500px; /* momentanea */
+    background-color: blue; /* momentanea */
     margin: 0 auto;
+}
+
+.boxedPlans{
+    height: 1200px; /* momentanea */
+    background-color: blueviolet; /* momentanea */
+    margin: 0 auto;
+}
+
+.plans{
+    justify-content: space-between;
+    background-color:crimson; /* momentanea */
+}
+
+.plan{
+    width: calc(100% / 3 - 2em);
+    background-color: chartreuse; /* momentanea */
+    height: 955px; /* momentanea */
+    border: 1px solid black; /* momentanea */
 }
