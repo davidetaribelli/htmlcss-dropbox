@@ -12,6 +12,7 @@
 .flex{display: flex;}
 .row{flex-direction: row;}
 .column{flex-direction: column;}
+.wrap{flex-wrap: wrap;}
 
 
 .col-10{width: 10%;}

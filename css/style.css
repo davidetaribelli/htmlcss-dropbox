@@ -6,13 +6,15 @@ header{
     align-items: center;
 }
 
-h1{
-    font-size: 60px;
+h1{font-size: 60px;}
+
+h2{font-size: 30px;}
+
+#textDecoration{
+    text-decoration: underline;
+    color: blue;
 }
 
-h2{
-    font-size: 30px;
-}
 
 /* HEADER */
 
@@ -47,6 +49,8 @@ header a{
 
 /* MAIN */
 
+
+/* < !-- intestazione della pagina --> */
 .heading{
     min-height: 500px; /* momentanea */
     background-color: blue; /* momentanea */
@@ -57,6 +61,8 @@ header a{
 .contentHeading{
     margin-top: 4.5em;
 }
+
+/* < !-- piani di pagamento --> */
 
 .boxedPlans{
     height: 1200px; /* momentanea */
@@ -87,6 +93,8 @@ header a{
     border: 1px solid black; /* momentanea */
 }
 
+/* < !-- contatta l'ufficio vendite --> */
+
 .contacts{
     min-height: 256px; /* momentanea */
     background-color: chocolate; /* momentanea */
@@ -98,6 +106,8 @@ header a{
     border: 1px solid black; /* momentanea */
     background-color: coral; /* momentanea */
 }
+
+/* < !-- contatta un partner --> */
 
 .partner{
     background-color: darkcyan; /* momentanea */
@@ -112,4 +122,38 @@ header a{
 
 .infoPartner{
     border: 1px solid black; /* momentanea */
+}
+
+/* < !-- esegui più operazioni --> */
+
+.operation{
+    height: 1115px; /* momentanea */
+    background-color: darkgray; /* momentanea */
+    margin: 0 auto 10em auto;
+}
+
+.operation div.flex{
+    justify-content: space-between;
+    height: 994px; /* momentanea */
+    background-color: cornflowerblue; /* momentanea */
+    margin-top: 4.5em;
+}
+
+.card{
+    height: 460px; /* momentanea */
+    width: calc(100% / 3 - 2em);
+    border: 1px solid black; /* momentanea */
+    background-color: yellowgreen; /* momentanea */
+}
+
+/* < !-- numero di team che utilizzano dropbox --> */
+
+.team{
+    height: 210px; /* momentanea */
+    background-color: red;
+    margin: 0 auto;
+}
+
+.team h2{
+    margin-bottom: 2em;
 }
