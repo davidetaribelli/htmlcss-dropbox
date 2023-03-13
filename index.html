@@ -47,7 +47,6 @@
             </div>
         </div>
     </header>
-    <hr>
     <!-- main -->
     <main>
         <!-- intestazione della pagina -->
@@ -73,7 +72,7 @@
         </section>
         <!-- piani di pagamento -->
         <section>
-            <div id="here" class="boxedPlans col-60">
+            <div id="here" class="boxedPlans flex column col-60">
                 <h2>Trova il piano business che fa per te</h2>
                 <div class="checkbox flex row">
                     <input type="radio"><span>Fatturazione mensile</span>
@@ -82,21 +81,154 @@
                 <div class="plans flex row col-100">
                     <!-- primo piano -->
                     <div class="plan flex column">
-                        <h5 class="center">Singolo</h5>
-                        <div class=" info"></div>
-                        <div class="plusPoints"></div>
+                        <h5 class="center">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Singolo</span>
+                        </h5>
+                        <div class="cost col-80">
+                            <h3 class="font-900">Professional</h3>
+                            <h6 class="font-900">€ 12.00</h6>
+                            <h6 class="colorGrey">/ mese</h6>
+                        </div>
+                        <div class="info col-80">
+                            <ul class="marginBottom">
+                                <li>
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>1 Utente</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder"></i>
+                                    <span>5 TB di spazio di archiviazione sicuro</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <span>Funzioni di produttività premium e condivisione file semplice e sicura</span>
+                                </li>
+                            </ul>
+                            <div class="planButton flex row">
+                                <button class="buttonBlue bgColorBlue">Prova gratis per 30 giorni</button>
+                            </div>
+                            <h4>oppure <a href="#">acquista ora</a></h4>
+                        </div>
+                        
+                        <div class="plusPoints">
+                            <hr class="col-20">
+                            <h4>Punti Salienti del piano</h4>
+                            <div class="check">
+                                <i class="colorBlue fa-solid fa-check"></i>
+                                <span>Invia file fino a 100 GB con Dropbox Transfert</span>
+                            </div>
+                            <div class="check">
+                                <i class="colorBlue fa-solid fa-check"></i>
+                                <span>Invia file fino a 100 GB con Dropbox Transfert</span>
+                            </div>
+                        </div>
                     </div>
                     <!-- secondo piano -->
                     <div class="plan flex column">
-                        <h5 class="center">Team</h5>
-                        <div class=" info"></div>
-                        <div class="plusPoints"></div>
+                        <h5 class="center">
+                            <i class="fa-solid fa-users"></i>
+                            <span>Team</span>
+                        </h5>
+                        <div class="cost col-80">
+                            <h3 class="font-900">Advanced</h3>
+                            <h6 class="font-900">€ 18.00</h6>
+                            <h6 class="colorGrey">/utente/ mese</h6>
+                        </div>
+                        <div class="info col-80">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-users"></i>
+                                    <span>3 o più utenti</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder"></i>
+                                    <span>Tutto lo spazio di cui ha bisogno il tuo team</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <span>Sofisticate funzioni di controllo e per tenere al sicuro tutti i tuoi file del tuo team</span>
+                                </li>
+                            </ul>
+                            <div class="planButton flex row">
+                                <button class="buttonBlue bgColorBlue">Prova gratis per 30 giorni</button>
+                            </div>
+                            <h4>oppure <a href="#">acquista ora</a></h4>
+                        </div>
+                        
+                        <div class="plusPoints">
+                            <hr class="col-20">
+                            <h4>Punti Salienti del piano</h4>
+                            <div class="check">
+                                <i class="colorBlue fa-solid fa-check"></i>
+                                <span>Nessun limite di spazio per i file</span>
+                            </div>
+                            <div class="check">
+                                <i class="colorBlue fa-solid fa-check"></i>
+                                <span>Cartelle offline su dispositivi mobili</span>
+                            </div>
+                            <div class="check">
+                                <i class="colorBlue fa-solid fa-check"></i>
+                                <span>Risparmio del 50% rispetto alle iscrizioni singole</span>
+                            </div>
+                            <div class="check">
+                                <i class="colorBlue fa-solid fa-check"></i>
+                                <span>Possibilità di inserire nuovi membri del team</span>
+                            </div>
+                            <div class="check">
+                                <i class="colorBlue fa-solid fa-check"></i>
+                                <span>Gestione dei permessi in base ai ruoli</span>
+                            </div>
+                        </div>
                     </div>
                     <!-- terzo piano -->
                     <div class="plan flex column">
-                        <h5 class="center">Azienda</h5>
-                        <div class=" info"></div>
-                        <div class="plusPoints"></div>
+                        <h5 class="center">
+                            <i class="fa-solid fa-building"></i>
+                            <span>Azienda</span>
+                        </h5>
+                        <div class="cost col-80">
+                            <h3 class="font-900">Enterprise</h3>
+                            <h6 class="font-900">Contattaci</h6>
+                            <h6 class="colorGrey">-</h6>
+                        </div>
+                        <div class="info col-80">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-users"></i>
+                                    <span>10 o più utenti</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder"></i>
+                                    <span>Soluzioni personalizzabili per la tua azienda</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <span>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
+                                </li>
+                            </ul>
+                            <div class="planButton flex row">
+                                <button class="buttonBlue bgColorBlue">Prova gratis per 30 giorni</button>
+                            </div>
+                            <h4>oppure <a href="#">acquista ora</a></h4>
+                        </div>
+                        
+                        <div class="plusPoints">
+                            <hr class="col-20">
+                            <h4>Punti Salienti del piano</h4>
+                            <div class="check">
+                                <i class="colorBlue fa-solid fa-check"></i>
+                                <span>Cartelle offline su dispositivi mobili</span>
+                            </div>
+                            <div class="check">
+                                <i class="colorBlue fa-solid fa-check"></i>
+                                <span>Servizio assistenza 24/h</span>
+                            </div>
+                            <div class="check">
+                                <i class="colorBlue fa-solid fa-check"></i>
+                                <span>Possibilità di personalizzazione totale</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

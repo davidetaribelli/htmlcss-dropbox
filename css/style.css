@@ -8,7 +8,10 @@ header{
     align-items: center;
 }
 
-h1{font-size: 60px;}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+}
 
 h2{font-size: 30px;}
 
@@ -27,7 +30,10 @@ footer{
     padding: 3em;
 }
 
-
+li{
+    list-style-type: none;
+    line-height: 1.5em;
+}
 /* HEADER */
 
 .navStart, .navEnd{
@@ -36,20 +42,32 @@ footer{
 }
 
 .navStart div, .navEnd div{
-    margin: 1em;
+    margin: 0.5em;
     padding: 1em;
 }
 
+.link{
+    height: 100%;
+}
 header a{
     text-decoration: none;
     color: black;
 }
 
+header .link:hover{
+    border-bottom: 3px solid black;
+    transition: 0.1s;
+}
+
 .buttonBlue{
     padding: 0.3em;
-    border: 0;
+    border: 1px solid #0061ff;
     cursor: pointer;
     color: white;
+}
+
+.navButton:hover, .logo:hover{
+    border-bottom: 3px solid #0061ff;
 }
 
 /* MAIN */
@@ -88,8 +106,7 @@ header a{
 /* < !-- piani di pagamento --> */
 
 .boxedPlans{
-    height: 1200px; /* momentanea */
-    background-color: blueviolet; /* momentanea */
+    
     margin: 7em auto 3em auto;
     padding-top: 1em;
 }
@@ -99,22 +116,43 @@ header a{
     margin-bottom: 3em;
 }
 
-.plans{
-    justify-content: space-between;
-    background-color:crimson; /* momentanea */
+.checkbox span{
+    margin-right: 3em;
 }
 
+.plans{
+    justify-content: space-between;
+}
 .plans h5, .contacts h5{
     padding: 1em;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
 }
 
 .plan{
+    line-height: 1.5em;
     width: calc(100% / 3 - 2em);
-    background-color: chartreuse; /* momentanea */
-    height: 955px; /* momentanea */
-    border: 1px solid black; /* momentanea */
+    border: 1px solid lightgray;
 }
+
+.cost, .info, .plusPoints{
+    margin: 2rem;
+}
+
+.cost{
+    margin-bottom: 3rem;
+    line-height: 2em;
+}
+
+.planButton{
+    justify-content: center;
+    margin: 3em;
+}
+
+.check{
+    line-height: 2;
+}
+
+
 
 /* < !-- contatta l'ufficio vendite --> */
 
