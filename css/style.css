@@ -1,9 +1,14 @@
 /* CSS PER LA PAGINA */
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
     background-color: aqua; /* momentanea */
     height: 70px; /* momentanea */
     justify-content: space-between;
     align-items: center;
+
 }
 
 h1{font-size: 60px;}
@@ -13,6 +18,11 @@ h2{font-size: 30px;}
 #textDecoration{
     text-decoration: underline;
     color: blue;
+}
+
+main{
+    margin-bottom: 10em;
+    padding-top: 4em;
 }
 
 
@@ -150,10 +160,52 @@ header a{
 
 .team{
     height: 210px; /* momentanea */
-    background-color: red;
-    margin: 0 auto;
+    background-color: red; /* momentanea */
+    margin: 0 auto 9em auto;
 }
 
 .team h2{
     margin-bottom: 2em;
 }
+
+/* < !-- sponsor --> */
+
+.sponsor{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    background-color: yellow; /* momentanea */
+    border: 1px solid black; /* momentanea */
+}
+
+.singleSponsor{
+    border: 1px solid red; /* momentanea */
+}
+
+/* < !-- prova gratutita --> */
+
+.freeTrial{
+    justify-content: space-around;
+    align-items: center;
+    padding: 8.5em;
+    margin-bottom: 10em;
+}
+
+.freeTrial h2{
+    padding: 1em;
+}
+
+.freeTrial .freeTrialButton button{
+    padding: 1em;
+}
+
+/* < !-- FAQ --> */
+
+.faq{
+    margin: 0 auto;
+}
+
+.request{
+    line-height: 5em;
+}
+
+/* FOOTER */
