@@ -51,12 +51,23 @@ header a{
     min-height: 500px; /* momentanea */
     background-color: blue; /* momentanea */
     margin: 0 auto;
+    padding: 1em;
+}
+
+.contentHeading{
+    margin-top: 4.5em;
 }
 
 .boxedPlans{
     height: 1200px; /* momentanea */
     background-color: blueviolet; /* momentanea */
-    margin: 0 auto;
+    margin: 3em auto 3em auto;
+    padding-top: 1em;
+}
+
+.checkbox {
+    margin-top: 4.5em;
+    margin-bottom: 3em;
 }
 
 .plans{
@@ -64,9 +75,41 @@ header a{
     background-color:crimson; /* momentanea */
 }
 
+.plans h5, .contacts h5{
+    padding: 1em;
+    border-bottom: 1px solid black;
+}
+
 .plan{
     width: calc(100% / 3 - 2em);
     background-color: chartreuse; /* momentanea */
     height: 955px; /* momentanea */
+    border: 1px solid black; /* momentanea */
+}
+
+.contacts{
+    min-height: 256px; /* momentanea */
+    background-color: chocolate; /* momentanea */
+    margin: 3em auto 8em auto;
+}
+
+.contacts > .flex > div{
+    height: 216px; /* momentanea */
+    border: 1px solid black; /* momentanea */
+    background-color: coral; /* momentanea */
+}
+
+.partner{
+    background-color: darkcyan; /* momentanea */
+    margin: 0 auto 9em auto;
+}
+
+.imgPartner{
+    height: 500px; /* momentanea */
+    background-color: cornflowerblue; /* momentanea */
+    border: 1px solid black; /* momentanea */
+}
+
+.infoPartner{
     border: 1px solid black; /* momentanea */
 }

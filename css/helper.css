@@ -5,6 +5,10 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
+.center{text-align: center;}
+.right{text-align: right;}
+.left{text-align: left;}
+
 .flex{display: flex;}
 .row{flex-direction: row;}
 .column{flex-direction: column;}
