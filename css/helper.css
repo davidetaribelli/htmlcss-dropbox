@@ -28,8 +28,9 @@
 .col-90{width: 90%;}
 .col-100{width: 100%;}
 
-
+.bgColorWhite{background-color: white;}
 .bgColorLightSky{background-color: #b4d0e7;}
 .bgColorBlack{background-color: black;}
+.bgColorBlue{background-color: #0061ff;}
 
 .font-700{font-weight: 700;}

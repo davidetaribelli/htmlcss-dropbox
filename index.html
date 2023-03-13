@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400&display=swap"
         rel="stylesheet">
@@ -16,7 +17,7 @@
 <body>
 
     <!-- header -->
-    <header class="flex row col-100">
+    <header class="bgColorWhite flex row col-100">
         <div class="navStart flex row">
             <div class="logo">
                 <img src="./img/logo-small.png" alt="logo">
@@ -42,7 +43,7 @@
                 <a href="#">Accedi</a>
             </div>
             <div class="navButton">
-                <button>Inizia</button>
+                <button class="buttonBlue bgColorBlue">Inizia</button>
             </div>
         </div>
     </header>
@@ -55,17 +56,24 @@
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 <div class="contentHeading flex row">
                     <div class="content col-40">
-
+                        <p>
+                            Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropobox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                        </p>
+                        <button class="buttonBlue bgColorBlue">Inizia la tua prova gratuita</button>
+                        <p>Annulla in qualsiasi momento</p>
+                        <div class="icon">
+                            <a href="#here"><i class="fa-solid fa-arrow-down"></i></a>
+                        </div>
                     </div>
                     <div class="imgHeading col-60">
-
+                        <img src="./img/jumbo.png" alt="jumbo">
                     </div>
                 </div>
             </div>
         </section>
         <!-- piani di pagamento -->
         <section>
-            <div class="boxedPlans col-60">
+            <div id="here" class="boxedPlans col-60">
                 <h2>Trova il piano business che fa per te</h2>
                 <div class="checkbox flex row">
                     <input type="radio"><span>Fatturazione mensile</span>

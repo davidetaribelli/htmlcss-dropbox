@@ -4,11 +4,8 @@ header{
     top: 0;
     left: 0;
     z-index: 999;
-    background-color: aqua; /* momentanea */
-    height: 70px; /* momentanea */
     justify-content: space-between;
     align-items: center;
-
 }
 
 h1{font-size: 60px;}
@@ -22,7 +19,7 @@ h2{font-size: 30px;}
 
 main{
     margin-bottom: 10em;
-    padding-top: 4em;
+    padding-top: 5em;
 }
 
 footer{
@@ -39,10 +36,8 @@ footer{
 }
 
 .navStart div, .navEnd div{
-    background-color: bisque; /* momentanea */
-    border: 1px solid black; /* momentanea */
     margin: 1em;
-    padding: 1.2em;
+    padding: 1em;
 }
 
 header a{
@@ -50,31 +45,44 @@ header a{
     color: black;
 }
 
-.content{
-    min-height: 397px; /* momentanea */
-    background-color: brown; /* momentanea */
-    border: 1px solid black; /* momentanea */
-}
-
-.imgHeading {
-    min-height: 397px; /* momentanea */
-    background-color: brown; /* momentanea */
-    border: 1px solid black; /* momentanea */
+.buttonBlue{
+    padding: 0.3em;
+    border: 0;
+    cursor: pointer;
+    color: white;
 }
 
 /* MAIN */
 
-
 /* < !-- intestazione della pagina --> */
 .heading{
-    min-height: 500px; /* momentanea */
-    background-color: blue; /* momentanea */
     margin: 0 auto;
-    padding: 1em;
+    padding-top: 5em;
+    max-height: 710px;
+}
+
+.imgHeading img{
+    width: 100%;
 }
 
 .contentHeading{
     margin-top: 4.5em;
+}
+
+.content button{
+    margin-top: 2em;
+    padding: 1.3em;
+    margin-bottom: 2em;
+}
+
+.content .icon{
+    font-size: 40px;
+    margin-top: 2.5em;
+    cursor: pointer;
+}
+
+.icon a{
+    color: black;
 }
 
 /* < !-- piani di pagamento --> */
@@ -82,7 +90,7 @@ header a{
 .boxedPlans{
     height: 1200px; /* momentanea */
     background-color: blueviolet; /* momentanea */
-    margin: 3em auto 3em auto;
+    margin: 7em auto 3em auto;
     padding-top: 1em;
 }
 
