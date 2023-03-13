@@ -25,6 +25,11 @@ main{
     padding-top: 4em;
 }
 
+footer{
+    color: white;
+    padding: 3em;
+}
+
 
 /* HEADER */
 
@@ -209,3 +214,24 @@ header a{
 }
 
 /* FOOTER */
+
+.footerTop, .footerBottom{
+    margin: 0 auto 3em auto;
+}
+
+.footerTop{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerBottom{
+    line-height: 8em;
+}
+
+.list{
+    width: calc(100% / 5 - 2em);
+    height: 222px; /* momentanea */
+    background-color: darkorange; /* momentanea */
+    border: 1px solid white; /* momentanea */
+}
+
