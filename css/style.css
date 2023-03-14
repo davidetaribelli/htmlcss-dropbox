@@ -69,11 +69,6 @@ button:hover{
 
 .dropDown a:hover{background-color: lightgray;}
 
-header a{
-    text-decoration: none;
-    color: black;
-}
-
 .buttonBlue{
     padding: 0.3em;
     border: 1px solid #0061ff;
@@ -115,8 +110,6 @@ header a{
     margin-top: 1.5em;
     cursor: pointer;
 }
-
-.icon a{color: black;}
 
 /* < !-- piani di pagamento --> */
 
@@ -234,8 +227,6 @@ header a{
 /* < !-- contatta un partner --> */
 
 .partner{margin: 0 auto 9em auto;}
-
-.imgPartner{min-height: 500px; }
 
 .infoPartner{padding: 5em;}
 
