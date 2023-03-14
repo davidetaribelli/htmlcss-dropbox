@@ -75,8 +75,8 @@ header .link:hover{
 /* < !-- intestazione della pagina --> */
 .heading{
     margin: 0 auto;
-    padding-top: 5em;
-    max-height: 710px;
+    padding: 5em 5em 0 5em;
+    min-height: 700px;
 }
 
 .imgHeading img{
@@ -85,6 +85,12 @@ header .link:hover{
 
 .contentHeading{
     margin-top: 4.5em;
+    position: relative;
+    top: 4rem;
+}
+
+.content{
+    padding-bottom: 4rem;
 }
 
 .content button{
@@ -95,7 +101,7 @@ header .link:hover{
 
 .content .icon{
     font-size: 40px;
-    margin-top: 2.5em;
+    margin-top: 1.5em;
     cursor: pointer;
 }
 
@@ -207,13 +213,25 @@ header .link:hover{
 .sponsor{
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    background-color: yellow; /* momentanea */
-    border: 1px solid black; /* momentanea */
 }
 
 .singleSponsor{
-    border: 1px solid red; /* momentanea */
+    height: 50%;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
 }
+
+.objectFitContain.col-60{
+    filter: invert(1);
+}
+
+.sponsor.flex.column{
+    padding: 1em;
+    line-height: 2em;
+}
+
+.bgColorGreen{border: 1rem solid #d1e9cd;}
 
 /* < !-- prova gratutita --> */
 
@@ -240,8 +258,21 @@ header .link:hover{
 
 .request{
     line-height: 5em;
+    justify-content: space-between;
+    transition: 0.5;
 }
 
+.request i{
+    cursor: pointer;
+}
+
+.request:hover .answer{
+    display: block;
+}
+
+.request:hover i{
+    transform: rotate(180deg);
+}
 /* FOOTER */
 
 .footerTop, .footerBottom{

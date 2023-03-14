@@ -10,7 +10,7 @@
 .left{text-align: left;}
 
 .block{display: block;}
-
+.none{display: none;}
 .flex{display: flex;}
 .row{flex-direction: row;}
 .column{flex-direction: column;}
@@ -34,6 +34,15 @@
 .bgColorLightSky{background-color: #b4d0e7;}
 .bgColorBlack{background-color: black;}
 .bgColorBlue{background-color: #0061ff;}
+.bgColorGreen{background-color: #a2d39b;}
+.bgColorBordeaux{background-color: #61082b;}
+.bgColorLightBlue{background-color: #0093ce;}
+.bgColorRed{background-color: red;}
+.bgColorGreyForOverflow{background-color: #f5f5f5;}
+.bgColorDarkRed{background-color: #d5001f;}
+.bgColorDarkBlue{background-color: #0d2481;}
+.bgColorYellow{background-color: #ffd830;}
+
 
 .colorGrey{color: grey;}
 .colorBlue{color: #0061ff;}
@@ -51,3 +60,4 @@
 .marginTop2em {margin-top: 2em;}
 
 .objectFitCover{object-fit: cover;}
+.objectFitContain{object-fit: contain;}
