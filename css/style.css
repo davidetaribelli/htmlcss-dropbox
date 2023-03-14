@@ -182,32 +182,21 @@ header .link:hover{
 
 /* < !-- esegui più operazioni --> */
 
-.operation{
-    background-color: darkgray; /* momentanea */
-    margin: 0 auto 10em auto;
-}
+.operation{margin: 0 auto 10em auto;}
 
 .operation div.flex{
     justify-content: space-between;
-    height: 994px; /* momentanea */
-    background-color: cornflowerblue; /* momentanea */
     margin-top: 4.5em;
 }
 
 .card{
     min-height: 460px; /* momentanea */
     width: calc(100% / 3 - 2em);
-    border: 1px solid black; /* momentanea */
-    background-color: yellowgreen; /* momentanea */
 }
 
 /* < !-- numero di team che utilizzano dropbox --> */
 
-.team{
-    height: 210px; /* momentanea */
-    background-color: red; /* momentanea */
-    margin: 0 auto 9em auto;
-}
+.team{margin: 0 auto 9em auto;}
 
 .team h2{
     margin-bottom: 2em;
