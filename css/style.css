@@ -86,20 +86,15 @@ header .link:hover{
     min-height: 700px;
 }
 
-.imgHeading img{
-    width: 100%;
-}
+.imgHeading img{width: 100%;}
 
 .contentHeading{
     margin-top: 4.5em;
     position: relative;
-    top: 4rem;
+    bottom: -4em;
 }
 
-.content{
-    padding-bottom: 4rem;
-}
-
+.content{padding-bottom: 4rem;}
 
 .content button{
     margin-top: 2em;
@@ -113,14 +108,11 @@ header .link:hover{
     cursor: pointer;
 }
 
-.icon a{
-    color: black;
-}
+.icon a{color: black;}
 
 /* < !-- piani di pagamento --> */
 
 .boxedPlans{
-    
     margin: 7em auto 3em auto;
     padding-top: 1em;
 }
@@ -130,13 +122,10 @@ header .link:hover{
     margin-bottom: 3em;
 }
 
-.checkbox span{
-    margin-right: 3em;
-}
+.checkbox span{margin-right: 3em;}
 
-.plans{
-    justify-content: space-between;
-}
+.plans{justify-content: space-between;}
+
 .plans h5, .contacts h5{
     padding: 1em;
     border-bottom: 1px solid lightgray;
@@ -153,9 +142,7 @@ header .link:hover{
     border: 1px solid lightgray;
 }
 
-.cost, .info, .plusPoints{
-    margin: 2rem;
-}
+.cost, .info, .plusPoints{margin: 2rem;}
 
 .cost{
     margin-bottom: 3rem;
@@ -201,13 +188,9 @@ header .link:hover{
     border-radius: 50%;
 }
 
-.check:hover input ~ .checkmark{
-    background-color: #ccc;
-}
+.check:hover input ~ .checkmark{background-color: #ccc;}
 
-.check input:checked ~ .checkmark {
-    background-color: #0061ff;
-}
+.check input:checked ~ .checkmark {background-color: #0061ff;}
 
 .checkmark:after {
     content: "";
@@ -215,9 +198,7 @@ header .link:hover{
     display: none;
 }
 
-.check input:checked~.checkmark:after {
-    display: block;
-}
+.check input:checked~.checkmark:after {display: block;}
 
 .check .checkmark:after {
     top: 50%;
@@ -240,9 +221,7 @@ header .link:hover{
     align-items: flex-start;
 }
 
-.contacts .flex.row{
-    padding: 1em;
-}
+.contacts .flex.row{padding: 1em;}
 
 /* < !-- contatta un partner --> */
 
@@ -272,10 +251,6 @@ header .link:hover{
 
 .team{margin: 0 auto 9em auto;}
 
-.team h2{
-    margin-bottom: 2em;
-}
-
 /* < !-- sponsor --> */
 
 .sponsor{
@@ -290,9 +265,7 @@ header .link:hover{
     align-items: center;
 }
 
-.objectFitContain.col-60{
-    filter: invert(1);
-}
+.objectFitContain.col-60{filter: invert(1);}
 
 .sponsor.flex.column{
     padding: 1em;
@@ -310,19 +283,17 @@ header .link:hover{
     margin-bottom: 10em;
 }
 
-.freeTrial h2{
-    padding: 1em;
-}
+
+.freeTrial h2{padding: 1em;}
 
 .freeTrial .freeTrialButton button{
     padding: 1em;
+    cursor: pointer;
 }
 
 /* < !-- FAQ --> */
 
-.faq{
-    margin: 0 auto;
-}
+.faq{margin: 0 auto;}
 
 .request{
     line-height: 5em;
@@ -330,17 +301,12 @@ header .link:hover{
     transition: 0.5;
 }
 
-.request i{
-    cursor: pointer;
-}
+.request i{cursor: pointer;}
 
-.request:hover .answer{
-    display: block;
-}
+.request:hover .answer{display: block;}
 
-.request:hover i{
-    transform: rotate(180deg);
-}
+.request:hover i{transform: rotate(180deg);}
+
 /* FOOTER */
 
 .footerTop, .footerBottom{
@@ -352,9 +318,7 @@ header .link:hover{
     align-items: center;
 }
 
-.footerBottom{
-    line-height: 8em;
-}
+.footerBottom{line-height: 8em;}
 
 .list{
     padding: 1em;
