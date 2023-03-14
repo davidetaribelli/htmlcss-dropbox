@@ -11,13 +11,13 @@
 
 .block{display: block;}
 .none{display: none;}
+
 .flex{display: flex;}
 .row{flex-direction: row;}
 .column{flex-direction: column;}
 .wrap{flex-wrap: wrap;}
 
 .overflow-y{overflow-y: scroll;}
-
 
 .col-10{width: 10%;}
 .col-20{width: 20%;}
@@ -61,3 +61,5 @@
 
 .objectFitCover{object-fit: cover;}
 .objectFitContain{object-fit: contain;}
+
+.textDecorationNot{text-decoration: none;}

@@ -158,8 +158,6 @@ header .link:hover{
     line-height: 2;
 }
 
-
-
 /* < !-- contatta l'ufficio vendite --> */
 
 .contacts{
@@ -195,10 +193,7 @@ header .link:hover{
     margin-top: 4.5em;
 }
 
-.card{
-    min-height: 460px; /* momentanea */
-    width: calc(100% / 3 - 2em);
-}
+.card{width: calc(100% / 3 - 2em);}
 
 /* < !-- numero di team che utilizzano dropbox --> */
 
@@ -289,9 +284,9 @@ header .link:hover{
 }
 
 .list{
+    padding: 1em;
     width: calc(100% / 5 - 2em);
-    height: 222px; /* momentanea */
-    background-color: darkorange; /* momentanea */
-    border: 1px solid white; /* momentanea */
 }
+
+.list li{line-height: 2.5em;}
 
