@@ -75,8 +75,14 @@
             <div id="here" class="boxedPlans flex column col-60">
                 <h2>Trova il piano business che fa per te</h2>
                 <div class="checkbox flex row">
-                    <input type="radio"><span>Fatturazione mensile</span>
-                    <input type="radio"><span>Fatturazione annuale</span>
+                    <div class="check">
+                        <input type="radio" checked="checked" name="checkbox" value="mensile"> Fatturazione mensile
+                        <span class="checkmark"></span>
+                    </div>
+                    <div class="check">
+                        <input type="radio" name="checkbox" value="annuale"> Fatturazione annuale
+                        <span class="checkmark"></span>
+                    </div>
                 </div>
                 <div class="plans flex row col-100">
                     <!-- primo piano -->
