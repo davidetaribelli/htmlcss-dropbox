@@ -100,6 +100,7 @@ header .link:hover{
     padding-bottom: 4rem;
 }
 
+
 .content button{
     margin-top: 2em;
     padding: 1.3em;
@@ -141,6 +142,11 @@ header .link:hover{
     border-bottom: 1px solid lightgray;
 }
 
+.boxedIcon {
+    align-items: baseline;
+    line-height: 2em;
+}
+
 .plan{
     line-height: 1.5em;
     width: calc(100% / 3 - 2em);
@@ -161,9 +167,7 @@ header .link:hover{
     margin: 3em;
 }
 
-.check{
-    line-height: 2;
-}
+
 /****************
     CHECKBOX
 ****************/
@@ -189,7 +193,7 @@ header .link:hover{
 
 .checkmark {
     position: absolute;
-    top: 5px;
+    top: 0;
     left: 0;
     height: 20px;
     width: 20px;

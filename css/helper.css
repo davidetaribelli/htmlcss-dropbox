@@ -55,9 +55,11 @@
 .marginBottom2em{margin-bottom: 2em;}
 .marginBottom3em{margin-bottom: 3em;}
 .marginBottom4-5em{margin-bottom: 4.5em;}
-
+.marginBottom5em{margin-bottom: 5em;}
 
 .marginTop2em {margin-top: 2em;}
+
+.marginRight1-2em {margin-right:1.2em;}
 
 .objectFitCover{object-fit: cover;}
 .objectFitContain{object-fit: contain;}
