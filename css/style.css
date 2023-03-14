@@ -157,38 +157,32 @@ header .link:hover{
 /* < !-- contatta l'ufficio vendite --> */
 
 .contacts{
-    min-height: 256px; /* momentanea */
-    background-color: chocolate; /* momentanea */
+    border: 1px solid lightgray;
     margin: 3em auto 8em auto;
 }
 
-.contacts > .flex > div{
-    height: 216px; /* momentanea */
-    border: 1px solid black; /* momentanea */
-    background-color: coral; /* momentanea */
+.contacts .col-30{
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contacts .flex.row{
+    padding: 1em;
 }
 
 /* < !-- contatta un partner --> */
 
-.partner{
-    background-color: darkcyan; /* momentanea */
-    margin: 0 auto 9em auto;
-}
+.partner{margin: 0 auto 9em auto;}
 
-.imgPartner{
-    height: 500px; /* momentanea */
-    background-color: cornflowerblue; /* momentanea */
-    border: 1px solid black; /* momentanea */
-}
+.imgPartner{min-height: 500px; }
 
-.infoPartner{
-    border: 1px solid black; /* momentanea */
-}
+.infoPartner{padding: 5em;}
+
+.infoPartner button{padding: 1em;}
 
 /* < !-- esegui più operazioni --> */
 
 .operation{
-    height: 1115px; /* momentanea */
     background-color: darkgray; /* momentanea */
     margin: 0 auto 10em auto;
 }
@@ -201,7 +195,7 @@ header .link:hover{
 }
 
 .card{
-    height: 460px; /* momentanea */
+    min-height: 460px; /* momentanea */
     width: calc(100% / 3 - 2em);
     border: 1px solid black; /* momentanea */
     background-color: yellowgreen; /* momentanea */

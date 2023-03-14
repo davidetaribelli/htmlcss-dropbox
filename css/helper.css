@@ -9,6 +9,8 @@
 .right{text-align: right;}
 .left{text-align: left;}
 
+.block{display: block;}
+
 .flex{display: flex;}
 .row{flex-direction: row;}
 .column{flex-direction: column;}
@@ -35,8 +37,17 @@
 
 .colorGrey{color: grey;}
 .colorBlue{color: #0061ff;}
+.colorLightGrey{color: lightgray;}
 
 .font-700{font-weight: 700;}
 .font-900 {font-weight: 900;}
 
-.marginBottom{margin-bottom: 4.5em;}
+.marginBottom1em{margin-bottom: 1em;}
+.marginBottom2em{margin-bottom: 2em;}
+.marginBottom3em{margin-bottom: 3em;}
+.marginBottom4-5em{margin-bottom: 4.5em;}
+
+
+.marginTop2em {margin-top: 2em;}
+
+.objectFitCover{object-fit: cover;}
