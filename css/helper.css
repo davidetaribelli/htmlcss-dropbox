@@ -42,11 +42,12 @@
 .bgColorDarkRed{background-color: #d5001f;}
 .bgColorDarkBlue{background-color: #0d2481;}
 .bgColorYellow{background-color: #ffd830;}
-
+.bgColorLightGrey{background-color: lightgray;}
 
 .colorGrey{color: grey;}
 .colorBlue{color: #0061ff;}
 .colorLightGrey{color: lightgray;}
+.colorBlack{color: black;}
 
 .font-700{font-weight: 700;}
 .font-900 {font-weight: 900;}
